@@ -10,9 +10,22 @@
 		A8D4669A2EC22776007251C9 /* Atlys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A8598DCF2EC23BD2007E0D83 /* Exceptions for "Atlys" folder in "Atlys" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A8D466992EC22776007251C9 /* Atlys */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A8D4669C2EC22776007251C9 /* Atlys */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A8598DCF2EC23BD2007E0D83 /* Exceptions for "Atlys" folder in "Atlys" target */,
+			);
 			path = Atlys;
 			sourceTree = "<group>";
 		};
